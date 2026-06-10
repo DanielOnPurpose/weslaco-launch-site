@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Build Your Website - Weslaco EDC Grant</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { 
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+            background: linear-gradient(135deg, #1a3f5a 0%, #2d5f7f 100%);
+            color: #333;
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            background: white;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+        }
+        h1 {
+            color: #0563C1;
+            margin-bottom: 10px;
+            font-size: 28px;
+        }
+        .subtitle {
+            color: #666;
+            margin-bottom: 30px;
+            font-size: 14px;
+        }
+        .form-group {
+            margin-bottom: 20px;
+        }
+        label {
+            display: block;
+            font-weight: 600;
+            margin-bottom: 8px;
+            color: #333;
+        }
+        input, textarea, select {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ddd;
+            border-radius: 6px;
+            font-size: 14px;
+            font-family: inherit;
+        }
+        textarea {
+            resize: vertical;
+            min-height: 80px;
+        }
+        .grid-2 {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+        }
+        .required::after { content: " *"; color: #e74c3c; }
+        button {
+            width: 100%;
+            padding: 16px;
+            background: linear-gradient(135deg, #0563C1, #0f4c94);
+            color: white;
+            border: none;
+            border-radius: 6px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            margin-top: 20px;
+            transition: all 0.3s;
+        }
+        button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(5, 99, 193, 0.4);
+        }
+        .back-link {
+            display: inline-block;
+            margin-bottom: 20px;
+            color: #0563C1;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        .back-link:hover { text-decoration: underline; }
+        .required-note {
+            font-size: 12px;
+            color: #999;
+            margin-top: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="/" class="back-link">← Back to home</a>
+        
+        <h1>Build Your Website</h1>
+        <p class="subtitle">Tell us about your business. We'll call you within one business day to get started.</p>
+        
+        <form id="survey-form">
+            <div class="form-group">
+                <label class="required">Your Name</label>
+                <input type="text" name="owner_name" required placeholder="John Smith">
+            </div>
+
+            <div class="form-group">
+                <label class="required">Business Name</label>
+                <input type="text" name="business_name" required placeholder="Maria's Bakery">
+            </div>
+
+            <div class="form-group">
+                <label class="required">Business Address</label>
+                <input type="text" name="address" required placeholder="123 Main St, Weslaco, TX">
+            </div>
+
+            <div class="form-group grid-2">
+                <div>
+                    <label class="required">Phone</label>
+                    <input type="tel" name="phone" required placeholder="956-555-1234">
+                </div>
+                <div>
+                    <label class="required">Email</label>
+                    <input type="email" name="email" required placeholder="john@example.com">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="required">What Products/Services Do You Offer?</label>
+                <input type="text" name="services" required placeholder="Baked goods, custom cakes, coffee">
+            </div>
+
+            <div class="form-group">
+                <label class="required">What do you want from your website?</label>
+                <textarea name="goals" required placeholder="More customers, online ordering, show our work..."></textarea>
+            </div>
+
+            <div class="form-group">
+                <label>Do you have a logo?</label>
+                <select name="has_logo">
+                    <option value="">Select...</option>
+                    <option value="yes">Yes</option>
+                    <option value="no">No</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label>Do you have existing photos/videos?</label>
+                <select name="has_assets">
+                    <option value="">Select...</option>
+                    <option value="yes">Yes</option>
+                    <option value="no">No</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label>Social Media Handles (if any)</label>
+                <input type="text" name="social_media" placeholder="@yourname on Instagram, Facebook page, etc.">
+            </div>
+
+            <button type="submit">Let's Build Your Website →</button>
+            <p class="required-note">* Required fields</p>
+        </form>
+    </div>
+
+    <script>
+        document.getElementById('survey-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('Thanks! We'll call you within one business day.');
+        });
+    </script>
+</body>
+</html>
