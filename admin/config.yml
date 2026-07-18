@@ -1,0 +1,213 @@
+# Sveltia CMS config (Decap format) — mirrors content/schema.json.
+# Only client-editable fields get widgets; request-only/hidden fields are
+# intentionally omitted (Danny handles those directly in the repo).
+backend:
+  name: github
+  repo: DanielOnPurpose/weslaco-launch-site
+  branch: main
+
+media_folder: "images"
+
+site_url: "https://weslaco.triggers.media"
+
+collections:
+  - name: content
+    label: "Site Content"
+    editor:
+      preview: false
+    files:
+      - name: global
+        label: "Site-wide (Contact & Footer)"
+        file: "content/global.json"
+        fields:
+          - name: contact
+            label: "Contact & Social"
+            widget: object
+            fields:
+              - { name: phoneDisplay, label: "Phone (as displayed)", widget: string }
+          - name: footer
+            label: "Footer Copy"
+            widget: object
+            fields:
+              - { name: description, label: "Footer description (EN)", widget: text }
+              - { name: descriptionEs, label: "Footer description (ES)", widget: text }
+              - { name: disclaimer, label: "Grant disclaimer (EN)", widget: text }
+              - { name: disclaimerEs, label: "Grant disclaimer (ES)", widget: text }
+      - name: home
+        label: "Homepage"
+        file: "content/home.json"
+        fields:
+          - name: hero
+            label: "Hero Banner"
+            widget: object
+            fields:
+              - { name: tag, label: "Eyebrow tag (EN)", widget: string }
+              - { name: tagEs, label: "Eyebrow tag (ES)", widget: string }
+              - { name: headlineTop, label: "Headline line 1 (EN)", widget: string }
+              - { name: headlineTopEs, label: "Headline line 1 (ES)", widget: string }
+              - { name: headlinePop, label: "Headline line 2 (EN)", widget: string }
+              - { name: headlinePopEs, label: "Headline line 2 (ES)", widget: string }
+              - { name: sub, label: "Subheadline (EN)", widget: text }
+              - { name: subEs, label: "Subheadline (ES)", widget: text }
+              - { name: check1, label: "Checklist item 1 (EN)", widget: string }
+              - { name: check1Es, label: "Checklist item 1 (ES)", widget: string }
+              - { name: check2, label: "Checklist item 2 (EN)", widget: string }
+              - { name: check2Es, label: "Checklist item 2 (ES)", widget: string }
+              - { name: check3, label: "Checklist item 3 (EN)", widget: string }
+              - { name: check3Es, label: "Checklist item 3 (ES)", widget: string }
+              - { name: priceWas, label: "Price (crossed out)", widget: string }
+              - { name: priceNow, label: "Price now (EN)", widget: string }
+              - { name: priceNowEs, label: "Price now (ES)", widget: string }
+              - { name: priceWhy, label: "Price explainer (EN)", widget: text }
+              - { name: priceWhyEs, label: "Price explainer (ES)", widget: text }
+              - { name: ctaPrimary, label: "Primary button label (EN)", widget: string }
+              - { name: ctaPrimaryEs, label: "Primary button label (ES)", widget: string }
+              - { name: ctaCall, label: "Call button label (EN)", widget: string }
+              - { name: ctaCallEs, label: "Call button label (ES)", widget: string }
+              - { name: micro, label: "Microcopy under buttons (EN)", widget: text }
+              - { name: microEs, label: "Microcopy under buttons (ES)", widget: text }
+          - name: trustedBy
+            label: "Trusted-By Names"
+            widget: object
+            fields:
+              - name: items
+                label: "Organizations"
+                widget: list
+                fields:
+                  - { name: name, label: "Organization name", widget: string }
+          - name: problem
+            label: "The Problem"
+            widget: object
+            fields:
+              - { name: tag, label: "Section tag (EN)", widget: string }
+              - { name: tagEs, label: "Section tag (ES)", widget: string }
+              - { name: heading, label: "Heading (EN)", widget: string }
+              - { name: headingEs, label: "Heading (ES)", widget: string }
+              - { name: body1, label: "Paragraph 1 (EN)", widget: text }
+              - { name: body1Es, label: "Paragraph 1 (ES)", widget: text }
+              - { name: body2, label: "Paragraph 2 (EN)", widget: text }
+              - { name: body2Es, label: "Paragraph 2 (ES)", widget: text }
+              - { name: callout, label: "Callout box (EN)", widget: text }
+              - { name: calloutEs, label: "Callout box (ES)", widget: text }
+          - name: package
+            label: "Package Intro"
+            widget: object
+            fields:
+              - { name: tag, label: "Section tag (EN)", widget: string }
+              - { name: tagEs, label: "Section tag (ES)", widget: string }
+              - { name: heading, label: "Heading (EN)", widget: string }
+              - { name: headingEs, label: "Heading (ES)", widget: string }
+              - { name: intro, label: "Intro paragraph (EN)", widget: text }
+              - { name: introEs, label: "Intro paragraph (ES)", widget: text }
+          - name: packageCards
+            label: "What's Included (cards)"
+            widget: object
+            fields:
+              - name: items
+                label: "Cards"
+                widget: list
+                fields:
+                  - { name: num, label: "Card number", widget: string }
+                  - { name: title, label: "Card title (EN)", widget: string }
+                  - { name: titleEs, label: "Card title (ES)", widget: string }
+                  - { name: text, label: "Card text (EN)", widget: text }
+                  - { name: textEs, label: "Card text (ES)", widget: text }
+          - name: packageCta
+            label: "Package CTA Card"
+            widget: object
+            fields:
+              - { name: big, label: "Big line (EN)", widget: string }
+              - { name: bigEs, label: "Big line (ES)", widget: string }
+              - { name: zero, label: "Price line (EN)", widget: string }
+              - { name: zeroEs, label: "Price line (ES)", widget: string }
+              - { name: text, label: "Supporting text (EN)", widget: text }
+              - { name: textEs, label: "Supporting text (ES)", widget: text }
+              - { name: buttonLabel, label: "Button label (EN)", widget: string }
+              - { name: buttonLabelEs, label: "Button label (ES)", widget: string }
+          - name: process
+            label: "How It Works Intro"
+            widget: object
+            fields:
+              - { name: tag, label: "Section tag (EN)", widget: string }
+              - { name: tagEs, label: "Section tag (ES)", widget: string }
+              - { name: heading, label: "Heading (EN)", widget: string }
+              - { name: headingEs, label: "Heading (ES)", widget: string }
+          - name: processSteps
+            label: "How It Works (steps)"
+            widget: object
+            fields:
+              - name: items
+                label: "Steps"
+                widget: list
+                fields:
+                  - { name: num, label: "Step number", widget: string }
+                  - { name: title, label: "Step title (EN)", widget: string }
+                  - { name: titleEs, label: "Step title (ES)", widget: string }
+                  - { name: text, label: "Step text (EN)", widget: text }
+                  - { name: textEs, label: "Step text (ES)", widget: text }
+                  - { name: eta, label: "Timeframe (EN)", widget: string }
+                  - { name: etaEs, label: "Timeframe (ES)", widget: string }
+          - name: grant
+            label: "The Grant, Explained"
+            widget: object
+            fields:
+              - { name: tag, label: "Section tag (EN)", widget: string }
+              - { name: tagEs, label: "Section tag (ES)", widget: string }
+              - { name: heading, label: "Heading (EN)", widget: string }
+              - { name: headingEs, label: "Heading (ES)", widget: string }
+              - { name: body1, label: "Paragraph 1 (EN)", widget: text }
+              - { name: body1Es, label: "Paragraph 1 (ES)", widget: text }
+              - { name: body2, label: "Paragraph 2 (EN)", widget: text }
+              - { name: body2Es, label: "Paragraph 2 (ES)", widget: text }
+              - { name: note, label: "Heads-up note (EN)", widget: text }
+              - { name: noteEs, label: "Heads-up note (ES)", widget: text }
+              - { name: qualifyHeading, label: "Qualify card heading (EN)", widget: string }
+              - { name: qualifyHeadingEs, label: "Qualify card heading (ES)", widget: string }
+              - { name: finePrint, label: "Eligibility fine print (EN)", widget: text }
+              - { name: finePrintEs, label: "Eligibility fine print (ES)", widget: text }
+          - name: eligibility
+            label: "Eligibility Checklist"
+            widget: object
+            fields:
+              - name: items
+                label: "Checklist items"
+                widget: list
+                fields:
+                  - { name: text, label: "Checklist item (EN)", widget: text }
+                  - { name: textEs, label: "Checklist item (ES)", widget: text }
+          - name: testimonial
+            label: "Testimonial"
+            widget: object
+            fields:
+              - { name: quoteStart, label: "Quote start (EN)", widget: text }
+              - { name: quoteStartEs, label: "Quote start (ES)", widget: text }
+              - { name: quoteHighlight, label: "Quote highlighted part (EN)", widget: text }
+              - { name: quoteHighlightEs, label: "Quote highlighted part (ES)", widget: text }
+              - { name: quoteEnd, label: "Quote end (EN)", widget: text }
+              - { name: quoteEndEs, label: "Quote end (ES)", widget: text }
+              - { name: cite, label: "Attribution", widget: string }
+          - name: lead
+            label: "Apply / Lead Section"
+            widget: object
+            fields:
+              - { name: heading, label: "Heading (EN)", widget: string }
+              - { name: headingEs, label: "Heading (ES)", widget: string }
+              - { name: body, label: "Body (EN)", widget: text }
+              - { name: bodyEs, label: "Body (ES)", widget: text }
+              - { name: urgencyBold, label: "Urgency bold part (EN)", widget: string }
+              - { name: urgencyBoldEs, label: "Urgency bold part (ES)", widget: string }
+              - { name: urgencyRest, label: "Urgency rest (EN)", widget: text }
+              - { name: urgencyRestEs, label: "Urgency rest (ES)", widget: text }
+              - { name: prefer, label: "Prefer-to-talk line (EN)", widget: string }
+              - { name: preferEs, label: "Prefer-to-talk line (ES)", widget: string }
+              - { name: callHeading, label: "Call card heading (EN only)", widget: string }
+              - { name: callLine1, label: "Call card line 1 (EN only)", widget: string }
+              - { name: callLine2, label: "Call card line 2 (EN only)", widget: string }
+          - name: finalCta
+            label: "Final CTA (survey)"
+            widget: object
+            fields:
+              - { name: heading, label: "Heading (EN only)", widget: string }
+              - { name: body, label: "Body (EN only)", widget: text }
+              - { name: buttonLabel, label: "Button label (EN only)", widget: string }
+              - { name: hurryText, label: "Hurry line (EN only)", widget: string }
