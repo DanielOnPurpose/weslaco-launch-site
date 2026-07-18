@@ -72,8 +72,8 @@
     "items": [
       {
         "num": "01",
-        "title": "4-Hour On-Site Onboarding",
-        "titleEs": "Onboarding de 4 Horas en tu Negocio",
+        "title": "1-Hour On-Site Onboarding",
+        "titleEs": "Onboarding de 1 Hora en tu Negocio",
         "text": "One visit, everything handled. We interview you, learn your business — history, customers, services — and capture the photos and short video clips for your site. You don't prepare a thing.",
         "textEs": "Una visita y nos encargamos de todo. Te entrevistamos, conocemos tu negocio — historia, clientes, servicios — y tomamos las fotos y videos cortos para tu sitio. No tienes que preparar nada."
       },
@@ -145,12 +145,12 @@
       },
       {
         "num": "3",
-        "title": "The 4-Hour Visit",
-        "titleEs": "La Visita de 4 Horas",
+        "title": "The 1-Hour Visit",
+        "titleEs": "La Visita de 1 Hora",
         "text": "We come to you: interview, business deep-dive, photos, and video clips — all in one session at your shop.",
         "textEs": "Vamos a tu negocio: entrevista, conocemos tu empresa, fotos y videos — todo en una sola sesión.",
-        "eta": "1 visit, 4 hours",
-        "etaEs": "1 visita, 4 horas"
+        "eta": "1 visit, 1 hour",
+        "etaEs": "1 visita, 1 hora"
       },
       {
         "num": "4",
