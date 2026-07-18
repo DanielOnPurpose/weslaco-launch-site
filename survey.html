@@ -97,7 +97,8 @@
         <h1>Build Your Website</h1>
         <p class="subtitle">Tell us about your business. We'll call you within one business day to get started.</p>
         
-        <form id="survey-form">
+        <form id="survey-form" name="website-survey" method="POST" netlify>
+            <input type="hidden" name="bot-field" />
             <div class="form-group">
                 <label class="required">Your Name</label>
                 <input type="text" name="owner_name" required placeholder="John Smith">
