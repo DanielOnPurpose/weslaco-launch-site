@@ -1,0 +1,236 @@
+{
+  "hero": {
+    "tag": "📢 Attention Weslaco Business Owners",
+    "tagEs": "📢 Atención Dueños de Negocios de Weslaco",
+    "headlineTop": "Hey Weslaco —",
+    "headlineTopEs": "Oye Weslaco —",
+    "headlinePop": "want a FREE website?",
+    "headlinePopEs": "¿quieres un sitio web GRATIS?",
+    "sub": "Not a gimmick. The City of Weslaco's grant pays the full $1,000 — we build your website, the EDC pays us, and you pay nothing. If your business is on Google without a website, this was made for you.",
+    "subEs": "No es truco. El subsidio de la Ciudad de Weslaco paga los $1,000 completos — nosotros construimos tu sitio, el EDC nos paga, y tú no pagas nada. Si tu negocio está en Google sin sitio web, esto se hizo para ti.",
+    "check1": "✓ I own a business in Weslaco",
+    "check1Es": "✓ Tengo un negocio en Weslaco",
+    "check2": "✓ I don't have a website",
+    "check2Es": "✓ No tengo sitio web",
+    "check3": "✓ I'll take a free one",
+    "check3Es": "✓ Sí quiero uno gratis",
+    "priceNow": "$0 OUT OF POCKET",
+    "priceNowEs": "$0 DE TU BOLSILLO",
+    "priceWhy": "The Weslaco EDC grant pays Triggers Media directly. You never write a check.",
+    "priceWhyEs": "El subsidio del EDC de Weslaco le paga directamente a Triggers Media. Tú nunca pagas nada.",
+    "ctaPrimary": "That's Me — I Want One →",
+    "ctaPrimaryEs": "Ese Soy Yo — Quiero Uno →",
+    "ctaCall": "Call / Text 956-605-4321",
+    "ctaCallEs": "Llama / Texto 956-605-4321",
+    "micro": "Takes 60 seconds. No commitment. Grant funds are limited and first come, first served.",
+    "microEs": "Toma 60 segundos. Sin compromiso. Los fondos del subsidio son limitados — primero en llegar, primero en ser atendido.",
+    "priceWas": "$1,000"
+  },
+  "trustedBy": {
+    "items": [
+      {
+        "name": "DHR Health"
+      },
+      {
+        "name": "UTRGV"
+      },
+      {
+        "name": "McAllen ISD"
+      },
+      {
+        "name": "RGV College"
+      },
+      {
+        "name": "RGV Partnership"
+      },
+      {
+        "name": "HKC Law Firm"
+      }
+    ]
+  },
+  "problem": {
+    "tag": "The Problem",
+    "tagEs": "El Problema",
+    "heading": "An invisible storefront on the busiest street in town",
+    "headingEs": "Un local invisible en la calle más transitada del pueblo",
+    "body1": "Google is where Weslaco looks first — for tacos, tires, haircuts, flowers, everything. Your listing shows up. But without a website behind it, there's nowhere to see your work, your menu, your prices, or your story. Most people keep scrolling to a business they CAN see.",
+    "body1Es": "Google es donde Weslaco busca primero — tacos, llantas, cortes de pelo, flores, todo. Tu negocio aparece. Pero sin un sitio web, no hay dónde ver tu trabajo, tu menú, tus precios o tu historia. La mayoría sigue buscando hasta encontrar un negocio que SÍ pueden ver.",
+    "body2": "Google also ranks businesses with linked websites higher in local search. No website doesn't just lose the click — it buries the listing.",
+    "body2Es": "Además, Google posiciona más arriba a los negocios con sitio web. No tener sitio no solo pierde el clic — entierra tu perfil.",
+    "callout": "We checked: 100+ Weslaco businesses are on Google right now with no website linked. If that's you, this page is your fix — and the City pays for it.",
+    "calloutEs": "Lo comprobamos: más de 100 negocios de Weslaco están en Google ahora mismo sin sitio web. Si ese es tu caso, esta página es la solución — y la Ciudad la paga."
+  },
+  "package": {
+    "tag": "The Weslaco Launch Package",
+    "tagEs": "El Paquete Weslaco Launch",
+    "heading": "One visit. One page. Your business, finally on the web.",
+    "headingEs": "Una visita. Una página. Tu negocio, por fin en la web.",
+    "intro": "Everything below is included in the $1,000 package — the exact amount the Weslaco EDC grant covers.",
+    "introEs": "Todo lo siguiente está incluido en el paquete de $1,000 — exactamente lo que cubre el subsidio del EDC de Weslaco."
+  },
+  "packageCards": {
+    "items": [
+      {
+        "num": "01",
+        "title": "4-Hour On-Site Onboarding",
+        "titleEs": "Onboarding de 4 Horas en tu Negocio",
+        "text": "One visit, everything handled. We interview you, learn your business — history, customers, services — and capture the photos and short video clips for your site. You don't prepare a thing.",
+        "textEs": "Una visita y nos encargamos de todo. Te entrevistamos, conocemos tu negocio — historia, clientes, servicios — y tomamos las fotos y videos cortos para tu sitio. No tienes que preparar nada."
+      },
+      {
+        "num": "02",
+        "title": "One-Page Professional Website",
+        "titleEs": "Sitio Web Profesional de Una Página",
+        "text": "Mobile-first and built to convert: your story, services, photos and clips, hours, map, and a tap-to-call button. Just like this page.",
+        "textEs": "Diseñado para celular y para convertir: tu historia, servicios, fotos y videos, horario, mapa y botón de llamada directa. Igual que esta página."
+      },
+      {
+        "num": "03",
+        "title": "Google Listing Connection",
+        "titleEs": "Conexión con tu Perfil de Google",
+        "text": "We link the new site to your Google Business Profile, so the customers already searching for you finally have somewhere to land.",
+        "textEs": "Conectamos el sitio nuevo a tu Perfil de Negocio de Google, para que los clientes que ya te buscan por fin tengan a dónde llegar."
+      },
+      {
+        "num": "04",
+        "title": "Launch Guide",
+        "titleEs": "Guía de Lanzamiento",
+        "text": "A plain-English playbook to get the most from your site — plus the before/after Google numbers the EDC asks for. We handle that paperwork.",
+        "textEs": "Una guía sencilla para sacarle el máximo a tu sitio — más los datos de antes/después que pide el EDC. Nosotros nos encargamos del papeleo."
+      },
+      {
+        "num": "05",
+        "title": "One Round of Edits",
+        "titleEs": "Una Ronda de Cambios",
+        "text": "Review the draft, send us your notes in one list, and we polish it before launch. Extra pages or features? We'll quote those separately.",
+        "textEs": "Revisa el borrador, mándanos tus notas en una sola lista y lo pulimos antes del lanzamiento. ¿Páginas o funciones extra? Te cotizamos aparte."
+      }
+    ]
+  },
+  "packageCta": {
+    "big": "All of this.",
+    "bigEs": "Todo esto.",
+    "zero": "$0 out of pocket.",
+    "zeroEs": "$0 de tu bolsillo.",
+    "text": "The Weslaco EDC grant covers the full $1,000. Funds are first come, first served.",
+    "textEs": "El subsidio del EDC de Weslaco cubre los $1,000 completos. Los fondos son por orden de llegada.",
+    "buttonLabel": "That's Me — I Want One →",
+    "buttonLabelEs": "Ese Soy Yo — Quiero Uno →"
+  },
+  "process": {
+    "tag": "How It Works",
+    "tagEs": "Cómo Funciona",
+    "heading": "From grant to launch in four steps",
+    "headingEs": "Del subsidio al lanzamiento en cuatro pasos"
+  },
+  "processSteps": {
+    "items": [
+      {
+        "num": "1",
+        "title": "Check & Apply",
+        "titleEs": "Verifica y Aplica",
+        "text": "We confirm your eligibility with the Weslaco EDC and prepare your application and quote — we fill out most of it for you.",
+        "textEs": "Confirmamos tu elegibilidad con el EDC de Weslaco y preparamos tu solicitud y cotización — llenamos casi todo por ti.",
+        "eta": "~1 week",
+        "etaEs": "~1 semana"
+      },
+      {
+        "num": "2",
+        "title": "Board Approval",
+        "titleEs": "Aprobación de la Junta",
+        "text": "The EDC board reviews applications every third Wednesday of the month. Once approved, the grant pays Triggers Media directly.",
+        "textEs": "La junta del EDC revisa solicitudes el tercer miércoles de cada mes. Al aprobarse, el subsidio le paga directamente a Triggers Media.",
+        "eta": "Monthly board meeting",
+        "etaEs": "Junta mensual"
+      },
+      {
+        "num": "3",
+        "title": "The 4-Hour Visit",
+        "titleEs": "La Visita de 4 Horas",
+        "text": "We come to you: interview, business deep-dive, photos, and video clips — all in one session at your shop.",
+        "textEs": "Vamos a tu negocio: entrevista, conocemos tu empresa, fotos y videos — todo en una sola sesión.",
+        "eta": "1 visit, 4 hours",
+        "etaEs": "1 visita, 4 horas"
+      },
+      {
+        "num": "4",
+        "title": "Build & Launch",
+        "titleEs": "Construcción y Lanzamiento",
+        "text": "We build the site, you review it, we apply your round of edits, connect it to Google, and launch — well inside the grant's 90-day window.",
+        "textEs": "Construimos el sitio, lo revisas, aplicamos tu ronda de cambios, lo conectamos a Google y lo lanzamos — dentro de los 90 días del subsidio.",
+        "eta": "Live within 90 days",
+        "etaEs": "En línea en 90 días"
+      }
+    ]
+  },
+  "grant": {
+    "tag": "The Grant, Explained",
+    "tagEs": "El Subsidio, Explicado",
+    "heading": "Yes — the City really pays for it",
+    "headingEs": "Sí — la Ciudad realmente lo paga",
+    "body1": "The Weslaco Business Marketing Grant gives eligible businesses up to $1,000 for new marketing — including website design, photography, and video. The EDC pays the marketing provider directly, so you never come out of pocket.",
+    "body1Es": "El Subsidio de Marketing para Negocios de Weslaco otorga hasta $1,000 a negocios elegibles para marketing nuevo — incluyendo diseño de sitios web, fotografía y video. El EDC le paga directamente al proveedor de marketing, así que tú nunca pagas de tu bolsillo.",
+    "body2": "Don't take our word for it — call the Economic Development Corporation of Weslaco at 956-969-0838 and ask about the Business Marketing Grant.",
+    "body2Es": "No confíes solo en nuestra palabra — llama a la Corporación de Desarrollo Económico de Weslaco al 956-969-0838 y pregunta por el Business Marketing Grant.",
+    "note": "Heads up: grant funds are limited, renewed yearly, and awarded until they run out. Each business can receive it once every 5 years. Applications are due two weeks before the monthly board meeting.",
+    "noteEs": "Importante: los fondos son limitados, se renuevan cada año y se otorgan hasta agotarse. Cada negocio puede recibirlo una vez cada 5 años. Las solicitudes vencen dos semanas antes de la junta mensual.",
+    "qualifyHeading": "You likely qualify if you're:",
+    "qualifyHeadingEs": "Probablemente calificas si eres:",
+    "finePrint": "Some businesses aren't eligible (attorneys, medical practices, daycares, insurance agents, franchises, big-box, non-profits, home-based). Not sure? Ask us — it's a 60-second check.",
+    "finePrintEs": "Algunos negocios no son elegibles (abogados, consultorios médicos, guarderías, agentes de seguros, franquicias, grandes cadenas, sin fines de lucro, negocios desde casa). ¿No estás seguro? Pregúntanos — toma 60 segundos."
+  },
+  "eligibility": {
+    "items": [
+      {
+        "text": "A for-profit business with a storefront in Weslaco city limits or ETJ",
+        "textEs": "Un negocio con fines de lucro y local físico en Weslaco o su ETJ"
+      },
+      {
+        "text": "20 employees or fewer",
+        "textEs": "Con 20 empleados o menos"
+      },
+      {
+        "text": "On Google (an active Google Business Profile — we'll help you check)",
+        "textEs": "En Google (un Perfil de Negocio activo — te ayudamos a verificarlo)"
+      },
+      {
+        "text": "In good standing with the City and the State of Texas",
+        "textEs": "Al corriente con la Ciudad y el Estado de Texas"
+      },
+      {
+        "text": "A first-timer — no Weslaco marketing grant in the past 5 years",
+        "textEs": "Primera vez — sin subsidio de marketing de Weslaco en los últimos 5 años"
+      }
+    ]
+  },
+  "testimonial": {
+    "quoteStart": "Triggers Media was fantastic to work with! They took the time to sit with me and ",
+    "quoteStartEs": "¡Trabajar con Triggers Media fue fantástico! Se tomaron el tiempo de sentarse conmigo y ",
+    "quoteHighlight": "build my website from scratch. They helped me create the content and media",
+    "quoteHighlightEs": "construir mi sitio web desde cero. Me ayudaron a crear el contenido y los medios",
+    "quoteEnd": " for the website. I highly recommend using their services!",
+    "quoteEndEs": " para el sitio. ¡Recomiendo mucho sus servicios!",
+    "cite": "— CJ Treviño, CT Prime Real Estate"
+  },
+  "lead": {
+    "heading": "Claim your spot before the grant money runs out",
+    "headingEs": "Aparta tu lugar antes de que se acaben los fondos",
+    "body": "Tell us about your business and we'll check your eligibility, confirm grant availability with the EDC, and prepare your application — free, no commitment.",
+    "bodyEs": "Cuéntanos de tu negocio y verificamos tu elegibilidad, confirmamos la disponibilidad del subsidio con el EDC y preparamos tu solicitud — gratis y sin compromiso.",
+    "urgencyBold": "Grant funds are first come, first served",
+    "urgencyBoldEs": "Los fondos se otorgan por orden de llegada",
+    "urgencyRest": " — and the board only meets once a month. The sooner you apply, the sooner you launch.",
+    "urgencyRestEs": " — y la junta solo se reúne una vez al mes. Entre más pronto apliques, más pronto lanzas.",
+    "prefer": "Prefer to talk? Call or text Daniel:",
+    "preferEs": "¿Prefieres hablar? Llama o manda texto a Daniel:",
+    "callHeading": "Call Daniel",
+    "callLine1": "Limited spots. First come, first served.",
+    "callLine2": "Prefer to talk? Call or text Daniel:"
+  },
+  "finalCta": {
+    "heading": "Ready to Get Started?",
+    "body": "Tell us about your business and we'll call you within one business day to discuss your website.",
+    "buttonLabel": "Start the Survey →",
+    "hurryText": "In a hurry? Call or text Daniel anytime:"
+  }
+}

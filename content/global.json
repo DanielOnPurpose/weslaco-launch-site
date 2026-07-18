@@ -1,0 +1,16 @@
+{
+  "contact": {
+    "phone": "9566054321",
+    "phoneDisplay": "956-605-4321",
+    "email": "daniel@triggers.media",
+    "website": "https://triggers.media",
+    "facebook": "https://www.facebook.com/triggersmedia/",
+    "instagram": "https://www.instagram.com/triggersmedia/"
+  },
+  "footer": {
+    "description": "Strategic marketing and creative services for the Rio Grande Valley. Trusted by DHR Health, UTRGV, McAllen ISD, RGV College, and small businesses across the Valley.",
+    "descriptionEs": "Marketing estratégico y servicios creativos para el Valle del Río Grande. Con la confianza de DHR Health, UTRGV, McAllen ISD, RGV College y pequeños negocios de todo el Valle.",
+    "disclaimer": "Grant of up to $1,000 awarded by the EDC of Weslaco; subject to eligibility & board approval. Funding limited, not guaranteed.",
+    "disclaimerEs": "Subsidio de hasta $1,000 otorgado por el EDC de Weslaco; sujeto a elegibilidad y aprobación de la junta. Fondos limitados, no garantizados."
+  }
+}
