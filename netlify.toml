@@ -1,0 +1,7 @@
+# weslaco.triggers.media — static site, NO build step on Netlify.
+# index.html is generated locally by build.js and committed to git.
+# This file publishes the folder as-is and pins config to THIS repo so a
+# parent-directory netlify.toml can never hijack the deploy (see ship-site).
+[build]
+  publish = "."
+  command = ""
