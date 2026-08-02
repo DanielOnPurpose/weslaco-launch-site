@@ -203,6 +203,54 @@
       }
     ]
   },
+  "featured": {
+    "tag": "Made in Weslaco",
+    "tagEs": "Hecho en Weslaco",
+    "heading": "Your neighbors already did it",
+    "headingEs": "Tus vecinos ya lo hicieron",
+    "intro": "Real Weslaco businesses used this exact grant to get online. Same program. Same $0 out of pocket. Built by Triggers Media.",
+    "introEs": "Negocios reales de Weslaco usaron este mismo subsidio para tener su sitio web. El mismo programa. Los mismos $0 de tu bolsillo. Hecho por Triggers Media."
+  },
+  "featuredCards": {
+    "items": [
+      {
+        "name": "Uncle Chops Food Court",
+        "img": "assets/uncle-chops.webp",
+        "cat": "Restaurant · 200 S Border Ave",
+        "catEs": "Restaurante · 200 S Border Ave",
+        "rating": "★ 4.8 · 450+ Google reviews",
+        "ratingEs": "★ 4.8 · 450+ reseñas en Google",
+        "blurb": "A Weslaco favorite with hundreds of five-star reviews — now with a website that shows off the menu and takes online orders.",
+        "blurbEs": "Un favorito de Weslaco con cientos de reseñas de cinco estrellas — ahora con un sitio web que muestra el menú y toma pedidos en línea.",
+        "url": "https://chops.triggers.media",
+        "cta": "Visit their site →",
+        "ctaEs": "Visita su sitio →",
+        "status": "LIVE",
+        "statusEs": "EN LÍNEA",
+        "soon": false,
+        "foot": "",
+        "footEs": ""
+      },
+      {
+        "name": "Ike's Gourmet Popcorn",
+        "img": "assets/ikes-popcorn.webp",
+        "cat": "Gourmet Popcorn · Wells Market",
+        "catEs": "Palomitas Gourmet · Wells Market",
+        "rating": "★ Celebrating 10 years · Est. 2016",
+        "ratingEs": "★ Celebrando 10 años · Desde 2016",
+        "blurb": "Small-batch gourmet popcorn in dozens of flavors — marking a decade in Weslaco with a brand-new website through the very same grant.",
+        "blurbEs": "Palomitas gourmet en docenas de sabores — celebrando una década en Weslaco con un sitio web nuevo a través del mismo subsidio.",
+        "url": "https://ikespopcorn.com",
+        "cta": "Visit their site →",
+        "ctaEs": "Visita su sitio →",
+        "status": "LIVE",
+        "statusEs": "EN LÍNEA",
+        "soon": false,
+        "foot": "",
+        "footEs": ""
+      }
+    ]
+  },
   "testimonial": {
     "quoteStart": "Triggers Media was fantastic to work with! They took the time to sit with me and ",
     "quoteStartEs": "¡Trabajar con Triggers Media fue fantástico! Se tomaron el tiempo de sentarse conmigo y ",

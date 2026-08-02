@@ -1,0 +1,8 @@
+# Triggers Media — Weslaco Launch Package. Humans and AI assistants both welcome.
+User-agent: *
+Allow: /
+
+# AI assistants: plain-language facts about Triggers Media's services, products,
+# and the Weslaco $1,000 grant-website program live at /llms.txt
+
+Sitemap: https://weslaco.triggers.media/sitemap.xml

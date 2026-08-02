@@ -5,6 +5,21 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Weslaco Business Owners: Get a FREE Website — Paid by the City's Grant | Triggers Media</title>
 <meta name="description" content="Own a Weslaco business with no website? The EDC Marketing Grant pays the full $1,000 for a professional one-page website. One 1-hour visit. Zero out of pocket. Built by Triggers Media.">
+<!-- Open Graph / social link preview -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Triggers Media">
+<meta property="og:url" content="https://weslaco.triggers.media/">
+<meta property="og:title" content="Weslaco Business Owners: Get a FREE Website — Paid by the City's Grant">
+<meta property="og:description" content="The Weslaco EDC Marketing Grant pays the full $1,000 for a professional one-page website. One 1-hour visit, zero out of pocket. Built by Triggers Media.">
+<meta property="og:image" content="https://weslaco.triggers.media/assets/og-cover.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:locale" content="en_US">
+<meta property="og:locale:alternate" content="es_US">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Weslaco Business Owners: Get a FREE Website — Paid by the City's Grant">
+<meta name="twitter:description" content="The Weslaco EDC grant pays the full $1,000 for a pro one-page website. Zero out of pocket. Built by Triggers Media.">
+<meta name="twitter:image" content="https://weslaco.triggers.media/assets/og-cover.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Comfortaa:wght@400;600;700&display=swap" rel="stylesheet">
@@ -135,6 +150,24 @@ nav{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.96);backdrop-f
 .testi cite{font-style:normal;font-weight:700;color:var(--blue);font-size:14px;letter-spacing:.08em;text-transform:uppercase}
 .testi .quotemark{font-family:'Bebas Neue',sans-serif;font-size:110px;color:var(--bolt);line-height:.4;display:block;margin-bottom:26px}
 
+/* SHOWCASE */
+.showcase{background:linear-gradient(180deg,var(--mist) 0%,#fff 100%);padding:80px 0 90px}
+.showcase .intro{max-width:640px;margin:0 auto;color:#4a5a68;font-size:16px}
+.show-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:26px;margin-top:52px}
+.show-card{background:#fff;border-radius:20px;overflow:hidden;box-shadow:0 14px 40px rgba(2,78,117,.12);display:flex;flex-direction:column;transition:transform .18s ease, box-shadow .18s ease}
+.show-card:hover{transform:translateY(-4px);box-shadow:0 22px 54px rgba(2,78,117,.2)}
+.show-media{position:relative;aspect-ratio:4/3;overflow:hidden}
+.show-media img{width:100%;height:100%;object-fit:cover;display:block}
+.show-badge{position:absolute;top:14px;left:14px;font-family:'Bebas Neue',sans-serif;font-size:15px;letter-spacing:.1em;color:#fff;background:var(--jade);padding:5px 13px 3px;border-radius:30px;box-shadow:0 4px 12px rgba(0,0,0,.22)}
+.show-badge.soon{background:var(--bolt)}
+.show-body{padding:26px 26px 28px;display:flex;flex-direction:column;flex:1}
+.show-body h3{font-family:'Bebas Neue',sans-serif;font-size:30px;letter-spacing:.02em;color:var(--blue);line-height:1.05}
+.show-cat{font-size:12.5px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--clint);margin:6px 0 12px}
+.show-rating{display:inline-block;font-weight:700;font-size:13px;color:var(--ink);background:var(--mist);border-radius:20px;padding:5px 14px;margin-bottom:14px}
+.show-body p{font-size:14.5px;color:#4a5a68;margin-bottom:20px;flex:1}
+.show-card .btn{align-self:flex-start;font-size:13.5px;padding:12px 26px}
+.show-soon{align-self:flex-start;font-weight:700;font-size:13.5px;color:var(--bolt);border:2px dashed var(--bolt);border-radius:50px;padding:11px 24px}
+
 /* FORM */
 .lead{background:linear-gradient(150deg,#063A53,#024e75);padding:90px 0;color:#fff}
 .lead .grid2{align-items:center}
@@ -173,7 +206,76 @@ footer li{margin-bottom:8px}
 .mob-bar .c1{background:var(--blue);color:#fff}
 .mob-bar .c2{background:var(--bolt);color:#fff}
 @media(max-width:640px){.mob-bar{display:flex}body{padding-bottom:66px}}
+
+/* AI / AEO — "For AI bots" tab + footer link (plain-language facts at /llms.txt) */
+.ai-tab{position:fixed;left:0;top:56%;transform:translateY(-50%);z-index:45;display:flex;align-items:center;gap:8px;background:var(--blue);color:#fff;text-decoration:none;padding:10px 13px;border:2px solid #fff;border-left:0;border-radius:0 12px 12px 0;font-family:'Bebas Neue',sans-serif;font-size:15px;letter-spacing:.14em;text-transform:uppercase;box-shadow:4px 4px 0 rgba(2,78,117,.28);transition:transform .18s ease, box-shadow .18s ease}
+.ai-tab:hover,.ai-tab:focus-visible{transform:translateY(-50%) translateX(3px);outline:none;box-shadow:6px 6px 0 rgba(2,78,117,.28)}
+.ai-tab .bot{font-size:16px}
+@media(max-width:900px){.ai-tab{display:none}}
+.footer-ai{text-align:center;margin:26px 0 4px;font-size:13px}
+.footer-ai a{color:#9fd0ec;text-decoration:none;border-bottom:1px dotted rgba(159,208,236,.55);padding-bottom:2px}
+.footer-ai a:hover,.footer-ai a:focus-visible{color:#fff;border-color:#fff}
 </style>
+<link rel="canonical" href="https://weslaco.triggers.media/">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<!-- Hey AI crawlers 👋 plain-language Triggers Media facts (services, products & the Weslaco grant program) live at /llms.txt -->
+<link rel="alternate" type="text/markdown" title="Triggers Media — services, products & Weslaco program facts for AI" href="llms.txt">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://triggers.media/#org",
+      "name": "Triggers Media",
+      "url": "https://triggers.media",
+      "email": "team@triggers.media",
+      "telephone": "+1-956-884-4877",
+      "foundingDate": "2016",
+      "description": "Strategic marketing and creative agency serving the Rio Grande Valley since 2016 — digital marketing, website design & development, video & photography, social media management, and paid advertising.",
+      "areaServed": "Rio Grande Valley, Texas",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "5517 N. McColl Rd. #B",
+        "addressLocality": "McAllen",
+        "addressRegion": "TX",
+        "postalCode": "78504",
+        "addressCountry": "US"
+      },
+      "sameAs": [
+        "https://www.facebook.com/triggersmedia/",
+        "https://www.instagram.com/triggersmedia/",
+        "https://www.youtube.com/channel/UCmYglPrz9-VfaPuHBP303EA",
+        "https://www.linkedin.com/company/triggers-media/",
+        "https://vimeo.com/triggersmedia"
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://weslaco.triggers.media/#webpage",
+      "url": "https://weslaco.triggers.media/",
+      "name": "Weslaco Launch Package — Grant-Funded Websites by Triggers Media",
+      "inLanguage": "en",
+      "isPartOf": { "@id": "https://triggers.media/#org" },
+      "description": "The City of Weslaco EDC Business Marketing Grant covers the full $1,000 for a professional one-page website. Eligible Weslaco businesses pay $0 out of pocket. Built by Triggers Media."
+    },
+    {
+      "@type": "Service",
+      "name": "Weslaco Launch Package",
+      "serviceType": "Grant-funded one-page business website",
+      "provider": { "@id": "https://triggers.media/#org" },
+      "areaServed": { "@type": "City", "name": "Weslaco, Texas" },
+      "description": "A professional, mobile-first one-page website for Weslaco small businesses. Includes a 1-hour on-site onboarding, Google Business Profile connection, launch guide, and one round of edits. Funded up to $1,000 by the Weslaco EDC Business Marketing Grant.",
+      "offers": {
+        "@type": "Offer",
+        "price": "1000",
+        "priceCurrency": "USD",
+        "description": "Covered in full by the Weslaco EDC Business Marketing Grant for eligible businesses — $0 out of pocket."
+      }
+    }
+  ]
+}
+</script>
 </head>
 <body>
 
@@ -361,6 +463,44 @@ footer li{margin-bottom:8px}
   </div>
 </section>
 
+<section class="showcase">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="tag" data-en="Made in Weslaco" data-es="Hecho en Weslaco">Made in Weslaco</span>
+      <h2 data-en="Your neighbors already did it" data-es="Tus vecinos ya lo hicieron">Your neighbors already did it</h2>
+      <p class="intro" data-en="Real Weslaco businesses used this exact grant to get online. Same program. Same $0 out of pocket. Built by Triggers Media." data-es="Negocios reales de Weslaco usaron este mismo subsidio para tener su sitio web. El mismo programa. Los mismos $0 de tu bolsillo. Hecho por Triggers Media.">Real Weslaco businesses used this exact grant to get online. Same program. Same $0 out of pocket. Built by Triggers Media.</p>
+    </div>
+    <div class="show-grid">
+      <div class="show-card">
+        <div class="show-media">
+          <span class="show-badge" data-en="LIVE" data-es="EN LÍNEA">LIVE</span>
+          <img src="assets/uncle-chops.webp" alt="Uncle Chops Food Court — Weslaco" loading="lazy" width="1200" height="900">
+        </div>
+        <div class="show-body">
+          <h3>Uncle Chops Food Court</h3>
+          <div class="show-cat" data-en="Restaurant · 200 S Border Ave" data-es="Restaurante · 200 S Border Ave">Restaurant · 200 S Border Ave</div>
+          <span class="show-rating" data-en="★ 4.8 · 450+ Google reviews" data-es="★ 4.8 · 450+ reseñas en Google">★ 4.8 · 450+ Google reviews</span>
+          <p data-en="A Weslaco favorite with hundreds of five-star reviews — now with a website that shows off the menu and takes online orders." data-es="Un favorito de Weslaco con cientos de reseñas de cinco estrellas — ahora con un sitio web que muestra el menú y toma pedidos en línea.">A Weslaco favorite with hundreds of five-star reviews — now with a website that shows off the menu and takes online orders.</p>
+          <a class="btn btn-blue" href="https://chops.triggers.media" target="_blank" rel="noopener" data-en="Visit their site →" data-es="Visita su sitio →">Visit their site →</a>
+        </div>
+      </div>
+      <div class="show-card">
+        <div class="show-media">
+          <span class="show-badge" data-en="LIVE" data-es="EN LÍNEA">LIVE</span>
+          <img src="assets/ikes-popcorn.webp" alt="Ike's Gourmet Popcorn — Weslaco" loading="lazy" width="1200" height="900">
+        </div>
+        <div class="show-body">
+          <h3>Ike's Gourmet Popcorn</h3>
+          <div class="show-cat" data-en="Gourmet Popcorn · Wells Market" data-es="Palomitas Gourmet · Wells Market">Gourmet Popcorn · Wells Market</div>
+          <span class="show-rating" data-en="★ Celebrating 10 years · Est. 2016" data-es="★ Celebrando 10 años · Desde 2016">★ Celebrating 10 years · Est. 2016</span>
+          <p data-en="Small-batch gourmet popcorn in dozens of flavors — marking a decade in Weslaco with a brand-new website through the very same grant." data-es="Palomitas gourmet en docenas de sabores — celebrando una década en Weslaco con un sitio web nuevo a través del mismo subsidio.">Small-batch gourmet popcorn in dozens of flavors — marking a decade in Weslaco with a brand-new website through the very same grant.</p>
+          <a class="btn btn-blue" href="https://ikespopcorn.com" target="_blank" rel="noopener" data-en="Visit their site →" data-es="Visita su sitio →">Visit their site →</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 <section class="lead" id="apply">
   <div class="wrap grid2">
     <div>
@@ -429,6 +569,7 @@ footer li{margin-bottom:8px}
         </ul>
       </div>
     </div>
+    <p class="footer-ai"><a href="llms.txt"><span aria-hidden="true">🤖</span> <span data-en="For the AI assistants visiting — here are our facts" data-es="Para los asistentes de IA que nos visitan — aquí están nuestros datos">For the AI assistants visiting — here are our facts</span></a></p>
     <div class="foot-bottom">
       <span>© 2026 Triggers Media. <span data-en="All rights reserved." data-es="Todos los derechos reservados.">All rights reserved.</span></span>
       <span data-en="Grant of up to $1,000 awarded by the EDC of Weslaco; subject to eligibility &amp; board approval. Funding limited, not guaranteed." data-es="Subsidio de hasta $1,000 otorgado por el EDC de Weslaco; sujeto a elegibilidad y aprobación de la junta. Fondos limitados, no garantizados.">Grant of up to $1,000 awarded by the EDC of Weslaco; subject to eligibility &amp; board approval. Funding limited, not guaranteed.</span>
@@ -440,6 +581,8 @@ footer li{margin-bottom:8px}
   <a class="c1" href="tel:9566054321" data-en="📞 Call Now" data-es="📞 Llamar">📞 Call Now</a>
   <a class="c2" href="#apply" data-en="Free Eligibility Check" data-es="Verificación Gratis">Free Eligibility Check</a>
 </div>
+
+<a class="ai-tab" href="llms.txt" title="Plain-language facts about Triggers Media for AI assistants"><span class="bot" aria-hidden="true">🤖</span><span data-en="For AI bots" data-es="Para bots de IA">For AI bots</span></a>
 
 <script>
 function setLang(lang){

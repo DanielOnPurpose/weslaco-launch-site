@@ -16,12 +16,42 @@
           "type": "contact_social",
           "label": "Contact & Social",
           "fields": [
-            { "key": "phone", "type": "tel", "label": "Phone (tel: link digits)", "permission": "request-only" },
-            { "key": "phoneDisplay", "type": "string", "label": "Phone (as displayed)", "permission": "client-editable" },
-            { "key": "email", "type": "email", "label": "Email", "permission": "request-only" },
-            { "key": "website", "type": "url", "label": "Website link", "permission": "request-only" },
-            { "key": "facebook", "type": "url", "label": "Facebook link", "permission": "request-only" },
-            { "key": "instagram", "type": "url", "label": "Instagram link", "permission": "request-only" }
+            {
+              "key": "phone",
+              "type": "tel",
+              "label": "Phone (tel: link digits)",
+              "permission": "request-only"
+            },
+            {
+              "key": "phoneDisplay",
+              "type": "string",
+              "label": "Phone (as displayed)",
+              "permission": "client-editable"
+            },
+            {
+              "key": "email",
+              "type": "email",
+              "label": "Email",
+              "permission": "request-only"
+            },
+            {
+              "key": "website",
+              "type": "url",
+              "label": "Website link",
+              "permission": "request-only"
+            },
+            {
+              "key": "facebook",
+              "type": "url",
+              "label": "Facebook link",
+              "permission": "request-only"
+            },
+            {
+              "key": "instagram",
+              "type": "url",
+              "label": "Instagram link",
+              "permission": "request-only"
+            }
           ]
         },
         {
@@ -29,10 +59,30 @@
           "type": "richtext",
           "label": "Footer Copy",
           "fields": [
-            { "key": "description", "type": "text", "label": "Footer description (EN)", "permission": "client-editable" },
-            { "key": "descriptionEs", "type": "text", "label": "Footer description (ES)", "permission": "client-editable" },
-            { "key": "disclaimer", "type": "text", "label": "Grant disclaimer (EN)", "permission": "client-editable" },
-            { "key": "disclaimerEs", "type": "text", "label": "Grant disclaimer (ES)", "permission": "client-editable" }
+            {
+              "key": "description",
+              "type": "text",
+              "label": "Footer description (EN)",
+              "permission": "client-editable"
+            },
+            {
+              "key": "descriptionEs",
+              "type": "text",
+              "label": "Footer description (ES)",
+              "permission": "client-editable"
+            },
+            {
+              "key": "disclaimer",
+              "type": "text",
+              "label": "Grant disclaimer (EN)",
+              "permission": "client-editable"
+            },
+            {
+              "key": "disclaimerEs",
+              "type": "text",
+              "label": "Grant disclaimer (ES)",
+              "permission": "client-editable"
+            }
           ]
         }
       ]
@@ -46,31 +96,156 @@
           "type": "hero",
           "label": "Hero Banner",
           "fields": [
-            { "key": "tag", "type": "string", "label": "Eyebrow tag (EN)", "permission": "client-editable" },
-            { "key": "tagEs", "type": "string", "label": "Eyebrow tag (ES)", "permission": "client-editable" },
-            { "key": "headlineTop", "type": "string", "label": "Headline line 1 (EN)", "permission": "client-editable" },
-            { "key": "headlineTopEs", "type": "string", "label": "Headline line 1 (ES)", "permission": "client-editable" },
-            { "key": "headlinePop", "type": "string", "label": "Headline line 2 (EN)", "permission": "client-editable" },
-            { "key": "headlinePopEs", "type": "string", "label": "Headline line 2 (ES)", "permission": "client-editable" },
-            { "key": "sub", "type": "text", "label": "Subheadline (EN)", "permission": "client-editable" },
-            { "key": "subEs", "type": "text", "label": "Subheadline (ES)", "permission": "client-editable" },
-            { "key": "check1", "type": "string", "label": "Checklist item 1 (EN)", "permission": "client-editable" },
-            { "key": "check1Es", "type": "string", "label": "Checklist item 1 (ES)", "permission": "client-editable" },
-            { "key": "check2", "type": "string", "label": "Checklist item 2 (EN)", "permission": "client-editable" },
-            { "key": "check2Es", "type": "string", "label": "Checklist item 2 (ES)", "permission": "client-editable" },
-            { "key": "check3", "type": "string", "label": "Checklist item 3 (EN)", "permission": "client-editable" },
-            { "key": "check3Es", "type": "string", "label": "Checklist item 3 (ES)", "permission": "client-editable" },
-            { "key": "priceWas", "type": "string", "label": "Price (crossed out)", "permission": "client-editable" },
-            { "key": "priceNow", "type": "string", "label": "Price now (EN)", "permission": "client-editable" },
-            { "key": "priceNowEs", "type": "string", "label": "Price now (ES)", "permission": "client-editable" },
-            { "key": "priceWhy", "type": "text", "label": "Price explainer (EN)", "permission": "client-editable" },
-            { "key": "priceWhyEs", "type": "text", "label": "Price explainer (ES)", "permission": "client-editable" },
-            { "key": "ctaPrimary", "type": "string", "label": "Primary button label (EN)", "permission": "client-editable" },
-            { "key": "ctaPrimaryEs", "type": "string", "label": "Primary button label (ES)", "permission": "client-editable" },
-            { "key": "ctaCall", "type": "string", "label": "Call button label (EN)", "permission": "client-editable" },
-            { "key": "ctaCallEs", "type": "string", "label": "Call button label (ES)", "permission": "client-editable" },
-            { "key": "micro", "type": "text", "label": "Microcopy under buttons (EN)", "permission": "client-editable" },
-            { "key": "microEs", "type": "text", "label": "Microcopy under buttons (ES)", "permission": "client-editable" }
+            {
+              "key": "tag",
+              "type": "string",
+              "label": "Eyebrow tag (EN)",
+              "permission": "client-editable"
+            },
+            {
+              "key": "tagEs",
+              "type": "string",
+              "label": "Eyebrow tag (ES)",
+              "permission": "client-editable"
+            },
+            {
+              "key": "headlineTop",
+              "type": "string",
+              "label": "Headline line 1 (EN)",
+              "permission": "client-editable"
+            },
+            {
+              "key": "headlineTopEs",
+              "type": "string",
+              "label": "Headline line 1 (ES)",
+              "permission": "client-editable"
+            },
+            {
+              "key": "headlinePop",
+              "type": "string",
+              "label": "Headline line 2 (EN)",
+              "permission": "client-editable"
+            },
+            {
+              "key": "headlinePopEs",
+              "type": "string",
+              "label": "Headline line 2 (ES)",
+              "permission": "client-editable"
+            },
+            {
+              "key": "sub",
+              "type": "text",
+              "label": "Subheadline (EN)",
+              "permission": "client-editable"
+            },
+            {
+              "key": "subEs",
+              "type": "text",
+              "label": "Subheadline (ES)",
+              "permission": "client-editable"
+            },
+            {
+              "key": "check1",
+              "type": "string",
+              "label": "Checklist item 1 (EN)",
+              "permission": "client-editable"
+            },
+            {
+              "key": "check1Es",
+              "type": "string",
+              "label": "Checklist item 1 (ES)",
+              "permission": "client-editable"
+            },
+            {
+              "key": "check2",
+              "type": "string",
+              "label": "Checklist item 2 (EN)",
+              "permission": "client-editable"
+            },
+            {
+              "key": "check2Es",
+              "type": "string",
+              "label": "Checklist item 2 (ES)",
+              "permission": "client-editable"
+            },
+            {
+              "key": "check3",
+              "type": "string",
+              "label": "Checklist item 3 (EN)",
+              "permission": "client-editable"
+            },
+            {
+              "key": "check3Es",
+              "type": "string",
+              "label": "Checklist item 3 (ES)",
+              "permission": "client-editable"
+            },
+            {
+              "key": "priceWas",
+              "type": "string",
+              "label": "Price (crossed out)",
+              "permission": "client-editable"
+            },
+            {
+              "key": "priceNow",
+              "type": "string",
+              "label": "Price now (EN)",
+              "permission": "client-editable"
+            },
+            {
+              "key": "priceNowEs",
+              "type": "string",
+              "label": "Price now (ES)",
+              "permission": "client-editable"
+            },
+            {
+              "key": "priceWhy",
+              "type": "text",
+              "label": "Price explainer (EN)",
+              "permission": "client-editable"
+            },
+            {
+              "key": "priceWhyEs",
+              "type": "text",
+              "label": "Price explainer (ES)",
+              "permission": "client-editable"
+            },
+            {
+              "key": "ctaPrimary",
+              "type": "string",
+              "label": "Primary button label (EN)",
+              "permission": "client-editable"
+            },
+            {
+              "key": "ctaPrimaryEs",
+              "type": "string",
+              "label": "Primary button label (ES)",
+              "permission": "client-editable"
+            },
+            {
+              "key": "ctaCall",
+              "type": "string",
+              "label": "Call button label (EN)",
+              "permission": "client-editable"
+            },
+            {
+              "key": "ctaCallEs",
+              "type": "string",
+              "label": "Call button label (ES)",
+              "permission": "client-editable"
+            },
+            {
+              "key": "micro",
+              "type": "text",
+              "label": "Microcopy under buttons (EN)",
+              "permission": "client-editable"
+            },
+            {
+              "key": "microEs",
+              "type": "text",
+              "label": "Microcopy under buttons (ES)",
+              "permission": "client-editable"
+            }
           ]
         },
         {
@@ -79,7 +254,11 @@
           "label": "Trusted-By Names",
           "permission": "client-editable",
           "itemFields": [
-            { "key": "name", "type": "string", "label": "Organization name" }
+            {
+              "key": "name",
+              "type": "string",
+              "label": "Organization name"
+            }
           ]
         },
         {
@@ -87,16 +266,66 @@
           "type": "richtext",
           "label": "The Problem",
           "fields": [
-            { "key": "tag", "type": "string", "label": "Section tag (EN)", "permission": "client-editable" },
-            { "key": "tagEs", "type": "string", "label": "Section tag (ES)", "permission": "client-editable" },
-            { "key": "heading", "type": "string", "label": "Heading (EN)", "permission": "client-editable" },
-            { "key": "headingEs", "type": "string", "label": "Heading (ES)", "permission": "client-editable" },
-            { "key": "body1", "type": "text", "label": "Paragraph 1 (EN)", "permission": "client-editable" },
-            { "key": "body1Es", "type": "text", "label": "Paragraph 1 (ES)", "permission": "client-editable" },
-            { "key": "body2", "type": "text", "label": "Paragraph 2 (EN)", "permission": "client-editable" },
-            { "key": "body2Es", "type": "text", "label": "Paragraph 2 (ES)", "permission": "client-editable" },
-            { "key": "callout", "type": "text", "label": "Callout box (EN)", "permission": "client-editable" },
-            { "key": "calloutEs", "type": "text", "label": "Callout box (ES)", "permission": "client-editable" }
+            {
+              "key": "tag",
+              "type": "string",
+              "label": "Section tag (EN)",
+              "permission": "client-editable"
+            },
+            {
+              "key": "tagEs",
+              "type": "string",
+              "label": "Section tag (ES)",
+              "permission": "client-editable"
+            },
+            {
+              "key": "heading",
+              "type": "string",
+              "label": "Heading (EN)",
+              "permission": "client-editable"
+            },
+            {
+              "key": "headingEs",
+              "type": "string",
+              "label": "Heading (ES)",
+              "permission": "client-editable"
+            },
+            {
+              "key": "body1",
+              "type": "text",
+              "label": "Paragraph 1 (EN)",
+              "permission": "client-editable"
+            },
+            {
+              "key": "body1Es",
+              "type": "text",
+              "label": "Paragraph 1 (ES)",
+              "permission": "client-editable"
+            },
+            {
+              "key": "body2",
+              "type": "text",
+              "label": "Paragraph 2 (EN)",
+              "permission": "client-editable"
+            },
+            {
+              "key": "body2Es",
+              "type": "text",
+              "label": "Paragraph 2 (ES)",
+              "permission": "client-editable"
+            },
+            {
+              "key": "callout",
+              "type": "text",
+              "label": "Callout box (EN)",
+              "permission": "client-editable"
+            },
+            {
+              "key": "calloutEs",
+              "type": "text",
+              "label": "Callout box (ES)",
+              "permission": "client-editable"
+            }
           ]
         },
         {
@@ -104,12 +333,42 @@
           "type": "richtext",
           "label": "Package Intro",
           "fields": [
-            { "key": "tag", "type": "string", "label": "Section tag (EN)", "permission": "client-editable" },
-            { "key": "tagEs", "type": "string", "label": "Section tag (ES)", "permission": "client-editable" },
-            { "key": "heading", "type": "string", "label": "Heading (EN)", "permission": "client-editable" },
-            { "key": "headingEs", "type": "string", "label": "Heading (ES)", "permission": "client-editable" },
-            { "key": "intro", "type": "text", "label": "Intro paragraph (EN)", "permission": "client-editable" },
-            { "key": "introEs", "type": "text", "label": "Intro paragraph (ES)", "permission": "client-editable" }
+            {
+              "key": "tag",
+              "type": "string",
+              "label": "Section tag (EN)",
+              "permission": "client-editable"
+            },
+            {
+              "key": "tagEs",
+              "type": "string",
+              "label": "Section tag (ES)",
+              "permission": "client-editable"
+            },
+            {
+              "key": "heading",
+              "type": "string",
+              "label": "Heading (EN)",
+              "permission": "client-editable"
+            },
+            {
+              "key": "headingEs",
+              "type": "string",
+              "label": "Heading (ES)",
+              "permission": "client-editable"
+            },
+            {
+              "key": "intro",
+              "type": "text",
+              "label": "Intro paragraph (EN)",
+              "permission": "client-editable"
+            },
+            {
+              "key": "introEs",
+              "type": "text",
+              "label": "Intro paragraph (ES)",
+              "permission": "client-editable"
+            }
           ]
         },
         {
@@ -118,11 +377,31 @@
           "label": "What's Included (cards)",
           "permission": "client-editable",
           "itemFields": [
-            { "key": "num", "type": "string", "label": "Card number" },
-            { "key": "title", "type": "string", "label": "Card title (EN)" },
-            { "key": "titleEs", "type": "string", "label": "Card title (ES)" },
-            { "key": "text", "type": "text", "label": "Card text (EN)" },
-            { "key": "textEs", "type": "text", "label": "Card text (ES)" }
+            {
+              "key": "num",
+              "type": "string",
+              "label": "Card number"
+            },
+            {
+              "key": "title",
+              "type": "string",
+              "label": "Card title (EN)"
+            },
+            {
+              "key": "titleEs",
+              "type": "string",
+              "label": "Card title (ES)"
+            },
+            {
+              "key": "text",
+              "type": "text",
+              "label": "Card text (EN)"
+            },
+            {
+              "key": "textEs",
+              "type": "text",
+              "label": "Card text (ES)"
+            }
           ]
         },
         {
@@ -130,14 +409,54 @@
           "type": "richtext",
           "label": "Package CTA Card",
           "fields": [
-            { "key": "big", "type": "string", "label": "Big line (EN)", "permission": "client-editable" },
-            { "key": "bigEs", "type": "string", "label": "Big line (ES)", "permission": "client-editable" },
-            { "key": "zero", "type": "string", "label": "Price line (EN)", "permission": "client-editable" },
-            { "key": "zeroEs", "type": "string", "label": "Price line (ES)", "permission": "client-editable" },
-            { "key": "text", "type": "text", "label": "Supporting text (EN)", "permission": "client-editable" },
-            { "key": "textEs", "type": "text", "label": "Supporting text (ES)", "permission": "client-editable" },
-            { "key": "buttonLabel", "type": "string", "label": "Button label (EN)", "permission": "client-editable" },
-            { "key": "buttonLabelEs", "type": "string", "label": "Button label (ES)", "permission": "client-editable" }
+            {
+              "key": "big",
+              "type": "string",
+              "label": "Big line (EN)",
+              "permission": "client-editable"
+            },
+            {
+              "key": "bigEs",
+              "type": "string",
+              "label": "Big line (ES)",
+              "permission": "client-editable"
+            },
+            {
+              "key": "zero",
+              "type": "string",
+              "label": "Price line (EN)",
+              "permission": "client-editable"
+            },
+            {
+              "key": "zeroEs",
+              "type": "string",
+              "label": "Price line (ES)",
+              "permission": "client-editable"
+            },
+            {
+              "key": "text",
+              "type": "text",
+              "label": "Supporting text (EN)",
+              "permission": "client-editable"
+            },
+            {
+              "key": "textEs",
+              "type": "text",
+              "label": "Supporting text (ES)",
+              "permission": "client-editable"
+            },
+            {
+              "key": "buttonLabel",
+              "type": "string",
+              "label": "Button label (EN)",
+              "permission": "client-editable"
+            },
+            {
+              "key": "buttonLabelEs",
+              "type": "string",
+              "label": "Button label (ES)",
+              "permission": "client-editable"
+            }
           ]
         },
         {
@@ -145,10 +464,30 @@
           "type": "richtext",
           "label": "How It Works Intro",
           "fields": [
-            { "key": "tag", "type": "string", "label": "Section tag (EN)", "permission": "client-editable" },
-            { "key": "tagEs", "type": "string", "label": "Section tag (ES)", "permission": "client-editable" },
-            { "key": "heading", "type": "string", "label": "Heading (EN)", "permission": "client-editable" },
-            { "key": "headingEs", "type": "string", "label": "Heading (ES)", "permission": "client-editable" }
+            {
+              "key": "tag",
+              "type": "string",
+              "label": "Section tag (EN)",
+              "permission": "client-editable"
+            },
+            {
+              "key": "tagEs",
+              "type": "string",
+              "label": "Section tag (ES)",
+              "permission": "client-editable"
+            },
+            {
+              "key": "heading",
+              "type": "string",
+              "label": "Heading (EN)",
+              "permission": "client-editable"
+            },
+            {
+              "key": "headingEs",
+              "type": "string",
+              "label": "Heading (ES)",
+              "permission": "client-editable"
+            }
           ]
         },
         {
@@ -157,13 +496,41 @@
           "label": "How It Works (steps)",
           "permission": "client-editable",
           "itemFields": [
-            { "key": "num", "type": "string", "label": "Step number" },
-            { "key": "title", "type": "string", "label": "Step title (EN)" },
-            { "key": "titleEs", "type": "string", "label": "Step title (ES)" },
-            { "key": "text", "type": "text", "label": "Step text (EN)" },
-            { "key": "textEs", "type": "text", "label": "Step text (ES)" },
-            { "key": "eta", "type": "string", "label": "Timeframe (EN)" },
-            { "key": "etaEs", "type": "string", "label": "Timeframe (ES)" }
+            {
+              "key": "num",
+              "type": "string",
+              "label": "Step number"
+            },
+            {
+              "key": "title",
+              "type": "string",
+              "label": "Step title (EN)"
+            },
+            {
+              "key": "titleEs",
+              "type": "string",
+              "label": "Step title (ES)"
+            },
+            {
+              "key": "text",
+              "type": "text",
+              "label": "Step text (EN)"
+            },
+            {
+              "key": "textEs",
+              "type": "text",
+              "label": "Step text (ES)"
+            },
+            {
+              "key": "eta",
+              "type": "string",
+              "label": "Timeframe (EN)"
+            },
+            {
+              "key": "etaEs",
+              "type": "string",
+              "label": "Timeframe (ES)"
+            }
           ]
         },
         {
@@ -171,20 +538,90 @@
           "type": "richtext",
           "label": "The Grant, Explained",
           "fields": [
-            { "key": "tag", "type": "string", "label": "Section tag (EN)", "permission": "client-editable" },
-            { "key": "tagEs", "type": "string", "label": "Section tag (ES)", "permission": "client-editable" },
-            { "key": "heading", "type": "string", "label": "Heading (EN)", "permission": "client-editable" },
-            { "key": "headingEs", "type": "string", "label": "Heading (ES)", "permission": "client-editable" },
-            { "key": "body1", "type": "text", "label": "Paragraph 1 (EN)", "permission": "client-editable" },
-            { "key": "body1Es", "type": "text", "label": "Paragraph 1 (ES)", "permission": "client-editable" },
-            { "key": "body2", "type": "text", "label": "Paragraph 2 (EN)", "permission": "client-editable" },
-            { "key": "body2Es", "type": "text", "label": "Paragraph 2 (ES)", "permission": "client-editable" },
-            { "key": "note", "type": "text", "label": "Heads-up note (EN)", "permission": "client-editable" },
-            { "key": "noteEs", "type": "text", "label": "Heads-up note (ES)", "permission": "client-editable" },
-            { "key": "qualifyHeading", "type": "string", "label": "Qualify card heading (EN)", "permission": "client-editable" },
-            { "key": "qualifyHeadingEs", "type": "string", "label": "Qualify card heading (ES)", "permission": "client-editable" },
-            { "key": "finePrint", "type": "text", "label": "Eligibility fine print (EN)", "permission": "client-editable" },
-            { "key": "finePrintEs", "type": "text", "label": "Eligibility fine print (ES)", "permission": "client-editable" }
+            {
+              "key": "tag",
+              "type": "string",
+              "label": "Section tag (EN)",
+              "permission": "client-editable"
+            },
+            {
+              "key": "tagEs",
+              "type": "string",
+              "label": "Section tag (ES)",
+              "permission": "client-editable"
+            },
+            {
+              "key": "heading",
+              "type": "string",
+              "label": "Heading (EN)",
+              "permission": "client-editable"
+            },
+            {
+              "key": "headingEs",
+              "type": "string",
+              "label": "Heading (ES)",
+              "permission": "client-editable"
+            },
+            {
+              "key": "body1",
+              "type": "text",
+              "label": "Paragraph 1 (EN)",
+              "permission": "client-editable"
+            },
+            {
+              "key": "body1Es",
+              "type": "text",
+              "label": "Paragraph 1 (ES)",
+              "permission": "client-editable"
+            },
+            {
+              "key": "body2",
+              "type": "text",
+              "label": "Paragraph 2 (EN)",
+              "permission": "client-editable"
+            },
+            {
+              "key": "body2Es",
+              "type": "text",
+              "label": "Paragraph 2 (ES)",
+              "permission": "client-editable"
+            },
+            {
+              "key": "note",
+              "type": "text",
+              "label": "Heads-up note (EN)",
+              "permission": "client-editable"
+            },
+            {
+              "key": "noteEs",
+              "type": "text",
+              "label": "Heads-up note (ES)",
+              "permission": "client-editable"
+            },
+            {
+              "key": "qualifyHeading",
+              "type": "string",
+              "label": "Qualify card heading (EN)",
+              "permission": "client-editable"
+            },
+            {
+              "key": "qualifyHeadingEs",
+              "type": "string",
+              "label": "Qualify card heading (ES)",
+              "permission": "client-editable"
+            },
+            {
+              "key": "finePrint",
+              "type": "text",
+              "label": "Eligibility fine print (EN)",
+              "permission": "client-editable"
+            },
+            {
+              "key": "finePrintEs",
+              "type": "text",
+              "label": "Eligibility fine print (ES)",
+              "permission": "client-editable"
+            }
           ]
         },
         {
@@ -193,8 +630,147 @@
           "label": "Eligibility Checklist",
           "permission": "client-editable",
           "itemFields": [
-            { "key": "text", "type": "text", "label": "Checklist item (EN)" },
-            { "key": "textEs", "type": "text", "label": "Checklist item (ES)" }
+            {
+              "key": "text",
+              "type": "text",
+              "label": "Checklist item (EN)"
+            },
+            {
+              "key": "textEs",
+              "type": "text",
+              "label": "Checklist item (ES)"
+            }
+          ]
+        },
+        {
+          "key": "featured",
+          "type": "richtext",
+          "label": "Featured Businesses Intro",
+          "fields": [
+            {
+              "key": "tag",
+              "type": "string",
+              "label": "Section tag (EN)",
+              "permission": "client-editable"
+            },
+            {
+              "key": "tagEs",
+              "type": "string",
+              "label": "Section tag (ES)",
+              "permission": "client-editable"
+            },
+            {
+              "key": "heading",
+              "type": "string",
+              "label": "Heading (EN)",
+              "permission": "client-editable"
+            },
+            {
+              "key": "headingEs",
+              "type": "string",
+              "label": "Heading (ES)",
+              "permission": "client-editable"
+            },
+            {
+              "key": "intro",
+              "type": "text",
+              "label": "Intro paragraph (EN)",
+              "permission": "client-editable"
+            },
+            {
+              "key": "introEs",
+              "type": "text",
+              "label": "Intro paragraph (ES)",
+              "permission": "client-editable"
+            }
+          ]
+        },
+        {
+          "key": "featuredCards",
+          "type": "list",
+          "label": "Featured Business Cards",
+          "permission": "client-editable",
+          "itemFields": [
+            {
+              "key": "name",
+              "type": "string",
+              "label": "Business name"
+            },
+            {
+              "key": "img",
+              "type": "image",
+              "label": "Photo"
+            },
+            {
+              "key": "cat",
+              "type": "string",
+              "label": "Category / address (EN)"
+            },
+            {
+              "key": "catEs",
+              "type": "string",
+              "label": "Category / address (ES)"
+            },
+            {
+              "key": "rating",
+              "type": "string",
+              "label": "Rating / tagline (EN)"
+            },
+            {
+              "key": "ratingEs",
+              "type": "string",
+              "label": "Rating / tagline (ES)"
+            },
+            {
+              "key": "blurb",
+              "type": "text",
+              "label": "Blurb (EN)"
+            },
+            {
+              "key": "blurbEs",
+              "type": "text",
+              "label": "Blurb (ES)"
+            },
+            {
+              "key": "url",
+              "type": "url",
+              "label": "Live site URL (blank = none)"
+            },
+            {
+              "key": "cta",
+              "type": "string",
+              "label": "Button label (EN)"
+            },
+            {
+              "key": "ctaEs",
+              "type": "string",
+              "label": "Button label (ES)"
+            },
+            {
+              "key": "status",
+              "type": "string",
+              "label": "Badge text (EN)"
+            },
+            {
+              "key": "statusEs",
+              "type": "string",
+              "label": "Badge text (ES)"
+            },
+            {
+              "key": "soon",
+              "type": "boolean",
+              "label": "Launching soon? (orange badge, no link)"
+            },
+            {
+              "key": "foot",
+              "type": "string",
+              "label": "Footer chip when launching soon (EN)"
+            },
+            {
+              "key": "footEs",
+              "type": "string",
+              "label": "Footer chip when launching soon (ES)"
+            }
           ]
         },
         {
@@ -202,13 +778,48 @@
           "type": "testimonials",
           "label": "Testimonial",
           "fields": [
-            { "key": "quoteStart", "type": "text", "label": "Quote start (EN)", "permission": "client-editable" },
-            { "key": "quoteStartEs", "type": "text", "label": "Quote start (ES)", "permission": "client-editable" },
-            { "key": "quoteHighlight", "type": "text", "label": "Quote highlighted part (EN)", "permission": "client-editable" },
-            { "key": "quoteHighlightEs", "type": "text", "label": "Quote highlighted part (ES)", "permission": "client-editable" },
-            { "key": "quoteEnd", "type": "text", "label": "Quote end (EN)", "permission": "client-editable" },
-            { "key": "quoteEndEs", "type": "text", "label": "Quote end (ES)", "permission": "client-editable" },
-            { "key": "cite", "type": "string", "label": "Attribution", "permission": "client-editable" }
+            {
+              "key": "quoteStart",
+              "type": "text",
+              "label": "Quote start (EN)",
+              "permission": "client-editable"
+            },
+            {
+              "key": "quoteStartEs",
+              "type": "text",
+              "label": "Quote start (ES)",
+              "permission": "client-editable"
+            },
+            {
+              "key": "quoteHighlight",
+              "type": "text",
+              "label": "Quote highlighted part (EN)",
+              "permission": "client-editable"
+            },
+            {
+              "key": "quoteHighlightEs",
+              "type": "text",
+              "label": "Quote highlighted part (ES)",
+              "permission": "client-editable"
+            },
+            {
+              "key": "quoteEnd",
+              "type": "text",
+              "label": "Quote end (EN)",
+              "permission": "client-editable"
+            },
+            {
+              "key": "quoteEndEs",
+              "type": "text",
+              "label": "Quote end (ES)",
+              "permission": "client-editable"
+            },
+            {
+              "key": "cite",
+              "type": "string",
+              "label": "Attribution",
+              "permission": "client-editable"
+            }
           ]
         },
         {
@@ -216,19 +827,84 @@
           "type": "richtext",
           "label": "Apply / Lead Section",
           "fields": [
-            { "key": "heading", "type": "string", "label": "Heading (EN)", "permission": "client-editable" },
-            { "key": "headingEs", "type": "string", "label": "Heading (ES)", "permission": "client-editable" },
-            { "key": "body", "type": "text", "label": "Body (EN)", "permission": "client-editable" },
-            { "key": "bodyEs", "type": "text", "label": "Body (ES)", "permission": "client-editable" },
-            { "key": "urgencyBold", "type": "string", "label": "Urgency bold part (EN)", "permission": "client-editable" },
-            { "key": "urgencyBoldEs", "type": "string", "label": "Urgency bold part (ES)", "permission": "client-editable" },
-            { "key": "urgencyRest", "type": "text", "label": "Urgency rest (EN)", "permission": "client-editable" },
-            { "key": "urgencyRestEs", "type": "text", "label": "Urgency rest (ES)", "permission": "client-editable" },
-            { "key": "prefer", "type": "string", "label": "Prefer-to-talk line (EN)", "permission": "client-editable" },
-            { "key": "preferEs", "type": "string", "label": "Prefer-to-talk line (ES)", "permission": "client-editable" },
-            { "key": "callHeading", "type": "string", "label": "Call card heading (EN only)", "permission": "client-editable" },
-            { "key": "callLine1", "type": "string", "label": "Call card line 1 (EN only)", "permission": "client-editable" },
-            { "key": "callLine2", "type": "string", "label": "Call card line 2 (EN only)", "permission": "client-editable" }
+            {
+              "key": "heading",
+              "type": "string",
+              "label": "Heading (EN)",
+              "permission": "client-editable"
+            },
+            {
+              "key": "headingEs",
+              "type": "string",
+              "label": "Heading (ES)",
+              "permission": "client-editable"
+            },
+            {
+              "key": "body",
+              "type": "text",
+              "label": "Body (EN)",
+              "permission": "client-editable"
+            },
+            {
+              "key": "bodyEs",
+              "type": "text",
+              "label": "Body (ES)",
+              "permission": "client-editable"
+            },
+            {
+              "key": "urgencyBold",
+              "type": "string",
+              "label": "Urgency bold part (EN)",
+              "permission": "client-editable"
+            },
+            {
+              "key": "urgencyBoldEs",
+              "type": "string",
+              "label": "Urgency bold part (ES)",
+              "permission": "client-editable"
+            },
+            {
+              "key": "urgencyRest",
+              "type": "text",
+              "label": "Urgency rest (EN)",
+              "permission": "client-editable"
+            },
+            {
+              "key": "urgencyRestEs",
+              "type": "text",
+              "label": "Urgency rest (ES)",
+              "permission": "client-editable"
+            },
+            {
+              "key": "prefer",
+              "type": "string",
+              "label": "Prefer-to-talk line (EN)",
+              "permission": "client-editable"
+            },
+            {
+              "key": "preferEs",
+              "type": "string",
+              "label": "Prefer-to-talk line (ES)",
+              "permission": "client-editable"
+            },
+            {
+              "key": "callHeading",
+              "type": "string",
+              "label": "Call card heading (EN only)",
+              "permission": "client-editable"
+            },
+            {
+              "key": "callLine1",
+              "type": "string",
+              "label": "Call card line 1 (EN only)",
+              "permission": "client-editable"
+            },
+            {
+              "key": "callLine2",
+              "type": "string",
+              "label": "Call card line 2 (EN only)",
+              "permission": "client-editable"
+            }
           ]
         },
         {
@@ -236,10 +912,30 @@
           "type": "richtext",
           "label": "Final CTA (survey)",
           "fields": [
-            { "key": "heading", "type": "string", "label": "Heading (EN only)", "permission": "client-editable" },
-            { "key": "body", "type": "text", "label": "Body (EN only)", "permission": "client-editable" },
-            { "key": "buttonLabel", "type": "string", "label": "Button label (EN only)", "permission": "client-editable" },
-            { "key": "hurryText", "type": "string", "label": "Hurry line (EN only)", "permission": "client-editable" }
+            {
+              "key": "heading",
+              "type": "string",
+              "label": "Heading (EN only)",
+              "permission": "client-editable"
+            },
+            {
+              "key": "body",
+              "type": "text",
+              "label": "Body (EN only)",
+              "permission": "client-editable"
+            },
+            {
+              "key": "buttonLabel",
+              "type": "string",
+              "label": "Button label (EN only)",
+              "permission": "client-editable"
+            },
+            {
+              "key": "hurryText",
+              "type": "string",
+              "label": "Hurry line (EN only)",
+              "permission": "client-editable"
+            }
           ]
         }
       ]
